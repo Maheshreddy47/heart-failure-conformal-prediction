@@ -1,0 +1,34 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# requirements.txt
+# Uncertainty-Aware Heart Failure Survival Prediction
+# A Conformal Prediction Framework for Safe Clinical AI
+# MSc Computing — Research Skills for Computing 55-710248
+# Sheffield Hallam University
+# Student: Mahesh Singireddy
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── Core data handling ────────────────────────────────────────────────────────
+numpy==1.26.4
+pandas==2.2.1
+scipy==1.13.0
+
+# ── Machine learning ──────────────────────────────────────────────────────────
+scikit-learn==1.4.2
+imbalanced-learn==0.12.2          # SMOTE (training partition only)
+
+# ── Conformal prediction ──────────────────────────────────────────────────────
+mapie==0.8.3                       # MAPIE SplitConformalClassifier (alpha=0.05)
+
+# ── Explainability ────────────────────────────────────────────────────────────
+shap==0.45.0                       # SHAP TreeExplainer (global + local)
+
+# ── Visualisation ─────────────────────────────────────────────────────────────
+matplotlib==3.8.4
+seaborn==0.13.2
+
+# ── Testing ───────────────────────────────────────────────────────────────────
+pytest==8.2.0                      # Unit tests TC1–TC8
+
+# ── Notebook environment ──────────────────────────────────────────────────────
+jupyter==1.0.0
+ipykernel==6.29.4
