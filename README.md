@@ -6,7 +6,7 @@
 | Student | Mahesh Singireddy |
 | Student ID | c5050786 |
 | Module | Research Skills for Computing (55-710248) |
-| Programme | MSc Computing |
+| Programme | MSc Big Data Analytics |
 | Institution | Sheffield Hallam University |
 | Supervisor | Dr. Olamilekan Shobayo |
 | Submission | August 2026 |
